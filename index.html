@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/grid-skills.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/sub-menu.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titulo de la pagina -->
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li>
+                <a href="#">Biografia</a>
+                <a href="#">Skills</a>
+                <a href="#">Proyectos</a>
+                <a href="#">Contacto</a>
+        </ul>
+        </li>
+        <a href="https://github.com/Antonio23-Leyva" class="icon-github" target="black">
+              <img src="img/github.svg" alt="logo-github" srcset="">  
+        </a>
+
+         <a href="#" class="icon-instagram" target="black">
+             <img src="img/instagram.svg" alt="logo-instagram" srcset="">
+         </a>   
+    </nav>
+
+    <header class="fondo-banner">
+        <!-- <img src="img/coding.jpg" alt="" srcset=""> -->
+    </header>
+    <!-- categorias del menu -->
+
+    <!-- Subtitulo de lista ordenada -->
+    <h2 class="title-h2-tecnologias">Skills</h2>
+    <!-- Lista ordenada -->
+    <div class="cards-grid-skills">
+        <!-- Tarjetas sobre informacion de habilidades -->
+        <div id="card-java">
+            <div>
+                <img src="img/logo-java.png" alt="JAVA" srcset="" title="JAVA">
+            </div>
+        </div>
+        <div id="card-html">
+            <div>
+                <img src="img/logo-html.png" alt="HTML" srcset="" title="HTML">
+            </div>
+        </div>
+        <div id="card-css">
+            <div><img src="img/logo-css.png" alt="CSS" srcset="" title="CSS"></div>
+        </div>
+        <div id="card-python">
+            <div><img src="img/logo-python.png" alt="PYTHON" srcset="" title="PYTHON"></div>
+        </div>
+        <div id="card-javascript">
+            <div><img src="img/logo-js.png" alt="JAVASCRIPT" srcset="" title="JAVASCRIPT"></div>
+        </div>
+    </div>
+    <!-- Fielset: Agrupa y dibuja una linea a los elementos dentro del tag-->
+    <!-- Legend:Titulo para fielset dentro del formulario-->
+    <!-- Formulario -->
+    <form class="content-form">
+        <legend>Contacto</legend>
+        <div class="content-label-input">
+            <label for="fname">Nombre</label>
+            <input type="text" name="fname" placeholder="Ingresa tu nombre Completo" required>
+            <!-- <label for="sname">Apellido</label>
+            <input type="text" name="apellido" placeholder="Ingresa tu apellido" required> -->
+            <label for="correo">Correo Electronico</label>
+            <input type="email" name="email" placeholder="Ingresa tu correo">
+            <label for="correo">Mensaje</label>
+            <input class="box-text" type="text" name="mensaje" placeholder="Mensaje aqui" required>
+            <button type="submit" value="Enviar">Enviar</button>
+        </div>
+    </form>
+    <!-- Footer muestra la información del creador de la pagina -->
+    <footer>
+        <div class="submenu-footer">
+            <nav class="title-submenu">
+                <hr>
+                <a href="#">Tutoriales</a>
+                <hr>
+                <a href="#">Temas</a>
+                <hr>
+                <a href="#">Inspiración</a>
+                <hr>
+            </nav>
+        </div>
+        <p class="text-content">
+            <span>luantdev@gmail.com</span>, Derechos reservados
+        </p>
+    </footer>
+
+    <!--Enlace a archivo javascript-->
+    <script src="js/index.js"></script>
+</body>
+
+</html>

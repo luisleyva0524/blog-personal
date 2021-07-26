@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cards-grid-skills{
+ display: grid;
+ grid-template-columns: auto auto auto;
+ justify-items: center;
+}
+img {
+    width: 190px;
+    height: 150px;
+}
+#card-java:hover {
+    opacity: 0.20;
+}
+#card-html:hover {
+    opacity: 0.20;
+}
+#card-css:hover {
+    opacity: 0.20;
+}
+#card-python:hover {
+    opacity: 0.20;
+}
+#card-javascript:hover {
+    opacity: 0.20;
+    background-color: #2a6984;
+
+}

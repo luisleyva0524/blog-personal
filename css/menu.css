@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    margin-top: 2px;
+    padding: 10px;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #000;
+}
+
+li a{
+ border-radius: 10px;
+ background-color: #fff;
+}
+
+#fondo-texto-skills:hover {
+    background-color: #5a5757;
+}
+
+ul a:hover {
+    background-color: #173f50;
+}
+
+/* Style of icon git */
+li .icon-github {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+
+  a img {
+    width: 32px;
+    position: relative;
+    float: right;
+    bottom: 90px;
+    right: 230px;
+    color: #fff;
+    margin: 5px;
+  }
+  
+li .icon-instagram {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+ 
+  /* ==========================================
+    ========================================== 
+  Single-colored icons can be modified like so:*/
+  
